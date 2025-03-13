@@ -1,0 +1,83 @@
+[ 2025-03-13 19:38:15,167 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 19:38:15,168 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 19:38:18,459 ] 212 root - INFO - Starting transformation...
+[ 2025-03-13 19:38:18,459 ] 213 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [1000000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.02], 'Cred_length': [10]}
+[ 2025-03-13 19:38:18,488 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 19:38:18,493 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 19:38:18,500 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 19:38:18,501 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 19:38:18,501 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 19:38:18,501 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 19:38:18,501 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 19:38:18,501 ] 146 root - INFO - Enhanced risk calculation factors:
+[ 2025-03-13 19:38:18,501 ] 147 root - INFO - - Age (40): impact varies
+[ 2025-03-13 19:38:18,501 ] 148 root - INFO - - Loan/Income (1.00): impact varies
+[ 2025-03-13 19:38:18,502 ] 149 root - INFO - - Employment Length (15.0): impact varies
+[ 2025-03-13 19:38:18,502 ] 150 root - INFO - - Credit Length (10): impact varies
+[ 2025-03-13 19:38:18,502 ] 151 root - INFO - - Interest Rate (12.0): impact varies
+[ 2025-03-13 19:38:18,502 ] 152 root - INFO - - Employment Status (1): impact varies
+[ 2025-03-13 19:38:18,502 ] 153 root - INFO - - Home Ownership (OWN): impact varies
+[ 2025-03-13 19:38:18,502 ] 154 root - INFO - - Loan Intent (PERSONAL): impact varies
+[ 2025-03-13 19:38:18,502 ] 156 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 19:38:18,505 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 19:38:18] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 19:38:21,440 ] 212 root - INFO - Starting transformation...
+[ 2025-03-13 19:38:21,441 ] 213 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [1000000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.02], 'Cred_length': [10]}
+[ 2025-03-13 19:38:21,456 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 19:38:21,460 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 19:38:21,461 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 19:38:21,462 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 19:38:21,462 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 19:38:21,462 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 19:38:21,462 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 19:38:21,462 ] 146 root - INFO - Enhanced risk calculation factors:
+[ 2025-03-13 19:38:21,462 ] 147 root - INFO - - Age (40): impact varies
+[ 2025-03-13 19:38:21,462 ] 148 root - INFO - - Loan/Income (1.00): impact varies
+[ 2025-03-13 19:38:21,462 ] 149 root - INFO - - Employment Length (15.0): impact varies
+[ 2025-03-13 19:38:21,462 ] 150 root - INFO - - Credit Length (10): impact varies
+[ 2025-03-13 19:38:21,462 ] 151 root - INFO - - Interest Rate (12.0): impact varies
+[ 2025-03-13 19:38:21,462 ] 152 root - INFO - - Employment Status (1): impact varies
+[ 2025-03-13 19:38:21,462 ] 153 root - INFO - - Home Ownership (OWN): impact varies
+[ 2025-03-13 19:38:21,462 ] 154 root - INFO - - Loan Intent (PERSONAL): impact varies
+[ 2025-03-13 19:38:21,462 ] 156 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 19:38:21,463 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 19:38:21] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 19:38:28,355 ] 212 root - INFO - Starting transformation...
+[ 2025-03-13 19:38:28,355 ] 213 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [100000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.02], 'Cred_length': [10]}
+[ 2025-03-13 19:38:28,365 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 19:38:28,368 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 19:38:28,369 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 19:38:28,370 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 19:38:28,370 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 19:38:28,370 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 19:38:28,370 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 19:38:28,370 ] 146 root - INFO - Enhanced risk calculation factors:
+[ 2025-03-13 19:38:28,370 ] 147 root - INFO - - Age (40): impact varies
+[ 2025-03-13 19:38:28,370 ] 148 root - INFO - - Loan/Income (0.10): impact varies
+[ 2025-03-13 19:38:28,370 ] 149 root - INFO - - Employment Length (15.0): impact varies
+[ 2025-03-13 19:38:28,370 ] 150 root - INFO - - Credit Length (10): impact varies
+[ 2025-03-13 19:38:28,370 ] 151 root - INFO - - Interest Rate (12.0): impact varies
+[ 2025-03-13 19:38:28,370 ] 152 root - INFO - - Employment Status (1): impact varies
+[ 2025-03-13 19:38:28,370 ] 153 root - INFO - - Home Ownership (OWN): impact varies
+[ 2025-03-13 19:38:28,370 ] 154 root - INFO - - Loan Intent (PERSONAL): impact varies
+[ 2025-03-13 19:38:28,370 ] 156 root - INFO - Final calculated risk score: 0.1200
+[ 2025-03-13 19:38:28,371 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 19:38:28] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 19:38:32,682 ] 212 root - INFO - Starting transformation...
+[ 2025-03-13 19:38:32,683 ] 213 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [100000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.02], 'Cred_length': [10]}
+[ 2025-03-13 19:38:32,710 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 19:38:32,715 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 19:38:32,715 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 19:38:32,717 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 19:38:32,717 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 19:38:32,717 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 19:38:32,717 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 19:38:32,717 ] 146 root - INFO - Enhanced risk calculation factors:
+[ 2025-03-13 19:38:32,717 ] 147 root - INFO - - Age (40): impact varies
+[ 2025-03-13 19:38:32,717 ] 148 root - INFO - - Loan/Income (0.10): impact varies
+[ 2025-03-13 19:38:32,718 ] 149 root - INFO - - Employment Length (15.0): impact varies
+[ 2025-03-13 19:38:32,718 ] 150 root - INFO - - Credit Length (10): impact varies
+[ 2025-03-13 19:38:32,718 ] 151 root - INFO - - Interest Rate (12.0): impact varies
+[ 2025-03-13 19:38:32,718 ] 152 root - INFO - - Employment Status (1): impact varies
+[ 2025-03-13 19:38:32,718 ] 153 root - INFO - - Home Ownership (OWN): impact varies
+[ 2025-03-13 19:38:32,718 ] 154 root - INFO - - Loan Intent (PERSONAL): impact varies
+[ 2025-03-13 19:38:32,718 ] 156 root - INFO - Final calculated risk score: 0.1200
+[ 2025-03-13 19:38:32,718 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 19:38:32] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 19:39:33,538 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

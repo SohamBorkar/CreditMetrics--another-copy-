@@ -1,0 +1,30 @@
+[ 2025-03-13 18:52:48,416 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 18:52:48,416 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 18:52:56,466 ] 118 root - INFO - Starting transformation...
+[ 2025-03-13 18:52:56,466 ] 119 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['Employed'], 'Percent_income': [0.59], 'Cred_length': [3]}
+[ 2025-03-13 18:52:56,497 ] 19 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 18:52:56,560 ] 21 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 18:52:56,564 ] 26 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 18:52:56,565 ] 35 root - INFO - Converted Status values: [1]
+[ 2025-03-13 18:52:56,565 ] 38 root - INFO - Transforming data using transformer
+[ 2025-03-13 18:52:56,565 ] 39 root - INFO - Input data shape: (1, 10)
+[ 2025-03-13 18:52:56,566 ] 40 root - INFO - Feature datatypes: Age                 int64
+Income            float64
+Home               object
+Emp_length        float64
+Intent             object
+Amount            float64
+Rate              float64
+Status              int64
+Percent_income    float64
+Cred_length         int64
+dtype: object
+[ 2025-03-13 18:52:56,566 ] 44 root - ERROR - Transformation error: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 18:52:56,574 ] 69 root - INFO - Used direct transformation approach. Final shape: (1, 10)
+[ 2025-03-13 18:52:56,574 ] 71 root - INFO - Making prediction
+[ 2025-03-13 18:52:56,574 ] 77 root - ERROR - Prediction error: X has 10 features, but GradientBoostingClassifier is expecting 18 features as input.
+[ 2025-03-13 18:52:56,579 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:52:56] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:52:56,605 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:52:56] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:52:56,606 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:52:56] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:52:56,679 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:52:56] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=ibrRni5YXVtygcC5WwpS HTTP/1.1" 200 -
+[ 2025-03-13 18:53:48,474 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

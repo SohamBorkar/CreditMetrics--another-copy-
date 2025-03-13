@@ -1,0 +1,14 @@
+[ 2025-03-13 20:08:43,386 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 20:08:43,387 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 20:08:45,100 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 20:08:45,100 ] 232 root - INFO - Data: {'Age': [22], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [1.0], 'Intent': ['EDUCATION'], 'Amount': [10000.0], 'Rate': [12.0], 'Status': ['Unemployed'], 'Percent_income': [0.01], 'Cred_length': [1]}
+[ 2025-03-13 20:08:45,121 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 20:08:45,126 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 20:08:45,132 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 20:08:45,133 ] 50 root - INFO - Converted Status values: [0]
+[ 2025-03-13 20:08:45,133 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 20:08:45,133 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 20:08:45,134 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 20:08:45,134 ] 177 root - INFO - Final calculated risk score: 0.8421
+[ 2025-03-13 20:08:45,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 20:08:45] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 20:08:52,596 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

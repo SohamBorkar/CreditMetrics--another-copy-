@@ -1,0 +1,23 @@
+[ 2025-03-13 19:42:51,975 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 19:42:51,976 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 19:44:28,973 ] 212 root - INFO - Starting transformation...
+[ 2025-03-13 19:44:28,974 ] 213 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [100000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.02], 'Cred_length': [10]}
+[ 2025-03-13 19:44:28,991 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 19:44:28,996 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 19:44:29,001 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 19:44:29,002 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 19:44:29,002 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 19:44:29,002 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 19:44:29,002 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 19:44:29,003 ] 146 root - INFO - Enhanced risk calculation factors:
+[ 2025-03-13 19:44:29,003 ] 147 root - INFO - - Age (40): impact varies
+[ 2025-03-13 19:44:29,003 ] 148 root - INFO - - Loan/Income (0.10): impact varies
+[ 2025-03-13 19:44:29,003 ] 149 root - INFO - - Employment Length (15.0): impact varies
+[ 2025-03-13 19:44:29,003 ] 150 root - INFO - - Credit Length (10): impact varies
+[ 2025-03-13 19:44:29,003 ] 151 root - INFO - - Interest Rate (12.0): impact varies
+[ 2025-03-13 19:44:29,003 ] 152 root - INFO - - Employment Status (1): impact varies
+[ 2025-03-13 19:44:29,003 ] 153 root - INFO - - Home Ownership (OWN): impact varies
+[ 2025-03-13 19:44:29,003 ] 154 root - INFO - - Loan Intent (PERSONAL): impact varies
+[ 2025-03-13 19:44:29,003 ] 156 root - INFO - Final calculated risk score: 0.1200
+[ 2025-03-13 19:44:29,006 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 19:44:29] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 19:44:56,063 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

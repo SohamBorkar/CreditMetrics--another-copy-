@@ -1,0 +1,25 @@
+[ 2025-03-13 20:07:52,643 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 20:07:52,644 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 20:07:53,870 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 20:07:53,870 ] 232 root - INFO - Data: {'Age': [22], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [1.0], 'Intent': ['EDUCATION'], 'Amount': [10000.0], 'Rate': [12.0], 'Status': ['Unemployed'], 'Percent_income': [0.01], 'Cred_length': [1]}
+[ 2025-03-13 20:07:53,894 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 20:07:53,901 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 20:07:53,906 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 20:07:53,907 ] 50 root - INFO - Converted Status values: [0]
+[ 2025-03-13 20:07:53,907 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 20:07:53,907 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 20:07:53,907 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 20:07:53,907 ] 177 root - INFO - Final calculated risk score: 0.9421
+[ 2025-03-13 20:07:53,910 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 20:07:53] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 20:07:57,373 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 20:07:57,374 ] 232 root - INFO - Data: {'Age': [22], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [1.0], 'Intent': ['EDUCATION'], 'Amount': [10000.0], 'Rate': [12.0], 'Status': ['Unemployed'], 'Percent_income': [0.01], 'Cred_length': [1]}
+[ 2025-03-13 20:07:57,403 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 20:07:57,409 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 20:07:57,410 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 20:07:57,411 ] 50 root - INFO - Converted Status values: [0]
+[ 2025-03-13 20:07:57,411 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 20:07:57,411 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 20:07:57,411 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 20:07:57,411 ] 177 root - INFO - Final calculated risk score: 0.9421
+[ 2025-03-13 20:07:57,412 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 20:07:57] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 20:08:04,902 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

@@ -1,0 +1,20 @@
+[ 2025-03-13 18:55:35,801 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 18:55:35,801 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 18:55:40,075 ] 151 root - INFO - Starting transformation...
+[ 2025-03-13 18:55:40,075 ] 152 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['Employed'], 'Percent_income': [0.59], 'Cred_length': [3]}
+[ 2025-03-13 18:55:40,105 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 18:55:40,110 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 18:55:40,116 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 18:55:40,117 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 18:55:40,117 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 18:55:40,117 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 18:55:40,117 ] 63 root - INFO - Using fallback prediction approach...
+[ 2025-03-13 18:55:40,118 ] 18 root - INFO - Creating fallback prediction model
+[ 2025-03-13 18:55:40,416 ] 28 root - INFO - Fallback model created
+[ 2025-03-13 18:55:40,426 ] 104 root - INFO - Fallback prediction: 1
+[ 2025-03-13 18:55:40,426 ] 105 root - INFO - Calculated risk score: 0.6
+[ 2025-03-13 18:55:40,430 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:55:40] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:55:40,455 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:55:40] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:55:40,457 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:55:40] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:55:40,533 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:55:40] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=9Yk43e5qyS63SZJ0qR8W HTTP/1.1" 200 -
+[ 2025-03-13 18:57:35,972 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/app.py', reloading

@@ -1,0 +1,53 @@
+[ 2025-03-13 20:00:25,315 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-03-13 20:00:25,315 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-03-13 20:00:25,317 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:00:26,029 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 20:00:26,029 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 20:00:29,262 ] 228 root - INFO - Starting transformation...
+[ 2025-03-13 20:00:29,262 ] 229 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [10000000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.01], 'Cred_length': [10]}
+[ 2025-03-13 20:00:29,292 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 20:00:29,297 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 20:00:29,304 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 20:00:29,305 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 20:00:29,305 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 20:00:29,305 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 20:00:29,305 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 20:00:29,306 ] 174 root - INFO - Final calculated risk score: 0.2800
+[ 2025-03-13 20:00:29,310 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 20:00:29] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 20:00:42,419 ] 228 root - INFO - Starting transformation...
+[ 2025-03-13 20:00:42,419 ] 229 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [1000000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.01], 'Cred_length': [10]}
+[ 2025-03-13 20:00:42,448 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 20:00:42,453 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 20:00:42,454 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 20:00:42,455 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 20:00:42,455 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 20:00:42,455 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 20:00:42,455 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 20:00:42,456 ] 174 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 20:00:42,456 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 20:00:42] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 20:00:52,663 ] 228 root - INFO - Starting transformation...
+[ 2025-03-13 20:00:52,664 ] 229 root - INFO - Data: {'Age': [40], 'Income': [1000000.0], 'Home': ['OWN'], 'Emp_length': [15.0], 'Intent': ['PERSONAL'], 'Amount': [10000000.0], 'Rate': [12.0], 'Status': ['Employed'], 'Percent_income': [0.01], 'Cred_length': [10]}
+[ 2025-03-13 20:00:52,692 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 20:00:52,697 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 20:00:52,698 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 20:00:52,699 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 20:00:52,699 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 20:00:52,699 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 20:00:52,699 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 20:00:52,700 ] 174 root - INFO - Final calculated risk score: 0.2800
+[ 2025-03-13 20:00:52,700 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 20:00:52] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 20:01:40,108 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading
+[ 2025-03-13 20:01:40,256 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:01:42,169 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:01:46,158 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:01:52,118 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:02:17,392 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:02:20,352 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:02:24,313 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:02:37,434 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:02:40,384 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:02:44,329 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:03:31,950 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:03:33,912 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-13 20:03:38,906 ] 97 werkzeug - INFO -  * Restarting with stat

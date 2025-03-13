@@ -1,0 +1,20 @@
+[ 2025-03-13 18:26:34,370 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 18:26:34,370 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 18:27:31,465 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:27:31] "GET /makepredictions HTTP/1.1" 200 -
+[ 2025-03-13 18:27:31,491 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:27:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:30:33,008 ] 66 root - INFO - Starting transformation...
+[ 2025-03-13 18:30:33,008 ] 67 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['1'], 'Percent_income': [59.0], 'Cred_length': [3]}
+[ 2025-03-13 18:30:33,084 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:30:33] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:30:33,121 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:30:33] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-03-13 18:30:33,126 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:30:33] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-03-13 18:30:33,210 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:30:33] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=0xYPLO6FlcR4LXdTgWJc HTTP/1.1" 200 -
+[ 2025-03-13 18:30:33,474 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:30:33] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-03-13 18:33:49,979 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:33:49] "GET /makepredictions HTTP/1.1" 200 -
+[ 2025-03-13 18:33:50,002 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:33:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:34:33,729 ] 66 root - INFO - Starting transformation...
+[ 2025-03-13 18:34:33,729 ] 67 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['1'], 'Percent_income': [0.59], 'Cred_length': [3]}
+[ 2025-03-13 18:34:33,748 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:34:33] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:34:33,778 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:34:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:34:33,781 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:34:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:34:33,850 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:34:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=0xYPLO6FlcR4LXdTgWJc HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:36:46,610 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

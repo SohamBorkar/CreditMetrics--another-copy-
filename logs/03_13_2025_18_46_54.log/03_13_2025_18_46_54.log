@@ -1,0 +1,42 @@
+[ 2025-03-13 18:46:54,178 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 18:46:54,178 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 18:47:00,185 ] 92 root - INFO - Starting transformation...
+[ 2025-03-13 18:47:00,185 ] 93 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['1'], 'Percent_income': [0.59], 'Cred_length': [3]}
+[ 2025-03-13 18:47:00,204 ] 18 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 18:47:00,271 ] 20 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 18:47:00,275 ] 24 root - INFO - Transforming data using transformer
+[ 2025-03-13 18:47:00,275 ] 25 root - INFO - Input data shape: (1, 10)
+[ 2025-03-13 18:47:00,276 ] 29 root - ERROR - Transformation error: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 18:47:00,287 ] 51 root - ERROR - Prediction error: all the input arrays must have same number of dimensions, but the array at index 0 has 2 dimension(s) and the array at index 3 has 1 dimension(s)
+[ 2025-03-13 18:47:00,294 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:00] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:47:00,321 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:00,322 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:00,390 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:00] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=7o6UYxXnp2oDOAkFomBe HTTP/1.1" 200 -
+[ 2025-03-13 18:47:00,551 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:05,130 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "GET / HTTP/1.1" 200 -
+[ 2025-03-13 18:47:05,161 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[33mGET /index.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 18:47:05,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:05,165 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 18:47:05,166 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:05,167 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[36mGET /static/components/features24.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:05,168 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:05,246 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 18:47:05,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 18:47:05,328 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 18:47:05,417 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:05,426 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:05] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:47:24,285 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:24] "GET /makepredictions HTTP/1.1" 200 -
+[ 2025-03-13 18:47:24,314 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:47:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:48:34,192 ] 92 root - INFO - Starting transformation...
+[ 2025-03-13 18:48:34,193 ] 93 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['Employed'], 'Percent_income': [0.59], 'Cred_length': [3]}
+[ 2025-03-13 18:48:34,221 ] 18 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 18:48:34,226 ] 20 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 18:48:34,226 ] 24 root - INFO - Transforming data using transformer
+[ 2025-03-13 18:48:34,226 ] 25 root - INFO - Input data shape: (1, 10)
+[ 2025-03-13 18:48:34,227 ] 29 root - ERROR - Transformation error: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 18:48:34,230 ] 51 root - ERROR - Prediction error: could not convert string to float: 'Employed'
+[ 2025-03-13 18:48:34,239 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:48:34] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:48:34,269 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:48:34] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:48:34,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:48:34] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:48:34,412 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:48:34] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=7o6UYxXnp2oDOAkFomBe HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:50:10,440 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading

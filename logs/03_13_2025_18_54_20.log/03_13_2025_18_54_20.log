@@ -1,0 +1,33 @@
+[ 2025-03-13 18:54:20,719 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 18:54:20,720 ] 97 werkzeug - INFO -  * Debugger PIN: 717-430-023
+[ 2025-03-13 18:54:30,032 ] 150 root - INFO - Starting transformation...
+[ 2025-03-13 18:54:30,032 ] 151 root - INFO - Data: {'Age': [22], 'Income': [59000.0], 'Home': ['RENT'], 'Emp_length': [123.0], 'Intent': ['PERSONAL'], 'Amount': [35000.0], 'Rate': [16.0], 'Status': ['Employed'], 'Percent_income': [0.59], 'Cred_length': [3]}
+[ 2025-03-13 18:54:30,060 ] 19 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 18:54:30,121 ] 21 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 18:54:30,125 ] 26 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 18:54:30,127 ] 35 root - INFO - Converted Status values: [1]
+[ 2025-03-13 18:54:30,127 ] 39 root - INFO - Transforming data using transformer
+[ 2025-03-13 18:54:30,127 ] 40 root - INFO - Input data shape: (1, 10)
+[ 2025-03-13 18:54:30,128 ] 41 root - INFO - Feature datatypes: Age                 int64
+Income            float64
+Home               object
+Emp_length        float64
+Intent             object
+Amount            float64
+Rate              float64
+Status              int64
+Percent_income    float64
+Cred_length         int64
+dtype: object
+[ 2025-03-13 18:54:30,128 ] 45 root - ERROR - Transformation error: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 18:54:30,128 ] 46 root - INFO - Attempting simulated transformation to match expected feature count (18)
+[ 2025-03-13 18:54:30,128 ] 91 root - INFO - Created simulated feature array with shape: (1, 18)
+[ 2025-03-13 18:54:30,128 ] 94 root - INFO - Input features: Age=22, Income=59000.0, Home=RENT, Intent=PERSONAL, Status=1
+[ 2025-03-13 18:54:30,128 ] 101 root - INFO - Transformed data sample: [2.20e+01 5.90e+04 1.23e+02 3.50e+04 1.60e+01]
+[ 2025-03-13 18:54:30,128 ] 103 root - INFO - Making prediction
+[ 2025-03-13 18:54:30,129 ] 109 root - ERROR - Prediction error: 'HalfBinomialLoss' object has no attribute 'get_init_raw_predictions'
+[ 2025-03-13 18:54:30,133 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:54:30] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2025-03-13 18:54:30,156 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:54:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:54:30,157 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:54:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-03-13 18:54:30,233 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 18:54:30] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=8WIzpXqKJrz2cA4aMliP HTTP/1.1" 200 -
+[ 2025-03-13 18:55:19,727 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/src/pipeline/pred_pipeline.py', reloading
