@@ -1,0 +1,239 @@
+[ 2025-03-13 23:17:57,906 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-13 23:17:57,906 ] 97 werkzeug - INFO -  * Debugger PIN: 124-453-343
+[ 2025-03-13 23:20:06,315 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:20:06,315 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:20:06,333 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:20:06,339 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:20:06,343 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:20:06,345 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:20:06,345 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:20:06,345 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:20:06,345 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:20:06,345 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:20:06,350 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:20:06] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:20:06,372 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:20:06] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:20:06,372 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:20:06] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:05,213 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:21:05,213 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:21:05,246 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:21:05,250 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:21:05,251 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:21:05,252 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:21:05,253 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:21:05,253 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:21:05,253 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:21:05,253 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:21:05,258 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:05] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:21:05,285 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:05] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:05,287 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:05] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:05,350 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:05] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:21:05,356 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:05] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:21:05,468 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:29,445 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:21:29,445 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:21:29,477 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:21:29,482 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:21:29,483 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:21:29,485 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:21:29,485 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:21:29,485 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:21:29,485 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:21:29,485 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:21:29,490 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:21:29,509 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:29,511 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:29,535 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:21:29,536 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:21:29,634 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:21:29,638 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:21:29] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:00,235 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:24:00,235 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:24:00,268 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:24:00,273 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:24:00,274 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:24:00,275 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:24:00,275 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:24:00,276 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:24:00,276 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:24:00,276 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:24:00,284 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:24:00,315 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:24:00,316 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:00,319 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:24:00,320 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:00,322 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:24:00,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:00,324 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:00,368 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:24:00,369 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:24:00,498 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:00,507 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:00] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:27,851 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:24:27,851 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:24:27,881 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:24:27,887 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:24:27,888 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:24:27,889 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:24:27,889 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:24:27,889 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:24:27,889 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:24:27,889 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:24:27,895 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:24:27,917 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:27,917 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:24:27,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:24:27,919 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:24:27,924 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:27,924 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:27,925 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:24:27,961 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:24:27,986 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:27] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:24:28,065 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:24:28] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:28,292 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:25:28,293 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:25:28,323 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:25:28,329 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:25:28,330 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:25:28,331 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:25:28,331 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:25:28,331 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:25:28,331 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:25:28,332 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:25:28,336 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:25:28,355 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:28,357 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:28,410 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:25:28,411 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:25:28,522 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:28,525 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:28] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:38,204 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:25:38,204 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:25:38,229 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:25:38,233 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:25:38,233 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:25:38,235 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:25:38,235 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:25:38,236 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:25:38,236 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:25:38,236 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:25:38,242 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:25:38,267 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:25:38,270 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:38,270 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:25:38,273 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:25:38,274 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:38,276 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:38,278 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:25:38,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:25:38,356 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:25:38,433 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:25:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:27:35,207 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:27:35,207 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:27:35,238 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:27:35,243 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:27:35,244 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:27:35,245 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:27:35,245 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:27:35,245 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:27:35,245 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:27:35,246 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:27:35,251 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:27:35,272 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:27:35,273 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:27:35,276 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:27:35,277 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:27:35,277 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:27:35,281 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:27:35,282 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:27:35,356 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:27:35,357 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:27:35,476 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:27:35,480 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:27:35] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:21,540 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:28:21,540 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:28:21,563 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:28:21,568 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:28:21,569 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:28:21,570 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:28:21,570 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:28:21,570 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:28:21,570 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:28:21,571 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:28:21,576 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:28:21,597 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:28:21,598 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:28:21,599 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:21,599 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:28:21,602 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:21,602 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:21,609 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:21,708 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:28:21,709 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:28:21,818 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:21,830 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:21] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:54,384 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:28:54,385 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:28:54,409 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:28:54,414 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:28:54,414 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:28:54,416 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:28:54,416 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:28:54,416 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:28:54,416 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:28:54,418 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:28:54,423 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:28:54,446 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:54,450 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:28:54,451 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:28:54,453 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:54,454 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:28:54,456 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:54,457 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:54,529 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:28:54,532 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:28:54,650 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:28:54,654 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:28:54] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:07,399 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:30:07,399 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:30:07,412 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:30:07,416 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:30:07,417 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:30:07,418 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:30:07,418 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:30:07,418 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:30:07,418 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:30:07,419 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:30:07,424 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:30:07,452 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:07,456 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:30:07,457 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:30:07,458 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:30:07,460 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:07,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:07,462 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:07,522 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:30:07,523 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:30:07,648 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:07,666 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:07] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:19,258 ] 231 root - INFO - Starting transformation...
+[ 2025-03-13 23:30:19,258 ] 232 root - INFO - Data: {'Age': [33], 'Income': [333333.0], 'Home': ['OWN'], 'Emp_length': [333.0], 'Intent': ['EDUCATION'], 'Amount': [3333.0], 'Rate': [33.0], 'Status': ['Employed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-03-13 23:30:19,284 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-03-13 23:30:19,289 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-03-13 23:30:19,290 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-03-13 23:30:19,291 ] 50 root - INFO - Converted Status values: [1]
+[ 2025-03-13 23:30:19,291 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-03-13 23:30:19,291 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-03-13 23:30:19,291 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-03-13 23:30:19,291 ] 177 root - INFO - Final calculated risk score: 0.0500
+[ 2025-03-13 23:30:19,296 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-03-13 23:30:19,315 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:30:19,316 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:19,316 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:30:19,318 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-03-13 23:30:19,321 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:19,324 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:19,325 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:19,411 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-03-13 23:30:19,411 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-03-13 23:30:19,502 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-03-13 23:30:19,515 ] 97 werkzeug - INFO - 127.0.0.1 - - [13/Mar/2025 23:30:19] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
