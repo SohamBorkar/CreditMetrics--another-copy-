@@ -1,0 +1,55 @@
+[ 2025-04-12 12:40:32,577 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2025-04-12 12:40:32,577 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-04-12 12:41:12,144 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "GET / HTTP/1.1" 200 -
+[ 2025-04-12 12:41:12,182 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:12,194 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:12,194 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "GET /static/css/index.css HTTP/1.1" 200 -
+[ 2025-04-12 12:41:12,197 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "[36mGET /static/components/features24.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:12,203 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:12,206 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "[33mGET /index.css HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:12,506 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:12,551 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-04-12 12:41:12,557 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:12] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-12 12:41:13,011 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:13] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:13,012 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:13] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:17,329 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "GET /makepredictions HTTP/1.1" 200 -
+[ 2025-04-12 12:41:17,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:17,393 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:17,526 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-04-12 12:41:17,527 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-12 12:41:17,620 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:17,622 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:17,745 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:46,674 ] 231 root - INFO - Starting transformation...
+[ 2025-04-12 12:41:46,675 ] 232 root - INFO - Data: {'Age': [33], 'Income': [3333333.0], 'Home': ['RENT'], 'Emp_length': [33.0], 'Intent': ['EDUCATION'], 'Amount': [333333.0], 'Rate': [33.0], 'Status': ['Unemployed'], 'Percent_income': [33.0], 'Cred_length': [33]}
+[ 2025-04-12 12:41:46,700 ] 36 root - INFO - Loading model from artifacts/model.pkl
+[ 2025-04-12 12:41:46,706 ] 38 root - INFO - Loading processor from artifacts/processor.pkl
+[ 2025-04-12 12:41:46,713 ] 43 root - INFO - Converting Status from string to numeric value
+[ 2025-04-12 12:41:46,715 ] 50 root - INFO - Converted Status values: [0]
+[ 2025-04-12 12:41:46,715 ] 54 root - INFO - Attempting prediction with original model...
+[ 2025-04-12 12:41:46,716 ] 62 root - ERROR - Original model prediction failed: 'ColumnTransformer' object has no attribute '_name_to_fitted_passthrough'
+[ 2025-04-12 12:41:46,716 ] 63 root - INFO - Using enhanced fallback prediction approach...
+[ 2025-04-12 12:41:46,716 ] 177 root - INFO - Final calculated risk score: 0.0680
+[ 2025-04-12 12:41:46,723 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "POST /predictdata HTTP/1.1" 200 -
+[ 2025-04-12 12:41:46,769 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:46,772 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "GET /static/css/contact.css HTTP/1.1" 200 -
+[ 2025-04-12 12:41:46,773 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:46,775 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:46,775 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:46,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:46,779 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-04-12 12:41:46,978 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-04-12 12:41:46,981 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:46] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-12 12:41:47,059 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:47] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:41:47,063 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:41:47] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:06,068 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:06] "GET /login HTTP/1.1" 200 -
+[ 2025-04-12 12:42:06,122 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:06,125 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:06] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:09,026 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:09,030 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:09] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:09,836 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:09] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-12 12:42:09,867 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:09,869 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:09] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:17,802 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-12 12:42:17,808 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:17] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -

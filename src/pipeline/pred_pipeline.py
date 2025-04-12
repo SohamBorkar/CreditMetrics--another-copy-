@@ -234,7 +234,3 @@ class input_data:
             return pd.DataFrame(user_input_data_dict)
         except Exception as e:
             raise CustomException(e, sys)
-
-
-                 
-    
