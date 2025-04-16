@@ -16,7 +16,7 @@
       background-color: var(--dl-color-theme-neutral-light);
       z-index: 1000;
     }
-    
+
     /* Ensure the mobile menu only captures events when visible */
     .navbar8-mobile-menu {
       display: none;
@@ -28,17 +28,17 @@
       background-color: var(--dl-color-theme-neutral-light);
       z-index: 1001;
     }
-    
+
     .navbar8-mobile-menu.show {
       display: flex;
     }
-    
+
     /* Ensure all containers within the navbar are properly contained */
-    .navbar8-container6, 
+    .navbar8-container6,
     .navbar8-container7 {
       height: auto !important;
     }
-    
+
     /* Prevent any unwanted hover effects */
     .navbar8-navbar-interactive {
       position: relative;
@@ -208,7 +208,10 @@
   <div>
     <header class="navbar8-container1">
       <header data-thq="thq-navbar" class="navbar8-navbar-interactive">
-        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="CreditMetric Logo" class="navbar8-image1" />
+        <a href="{{ url_for('home') }}">
+          <img src="{{ url_for('static', filename='images/logo.png') }}" alt="CreditMetric Logo"
+            class="navbar8-image1" />
+        </a>
         <div data-thq="thq-navbar-nav" class="navbar8-desktop-menu">
           <nav class="navbar8-links1">
             <a href="{{ url_for('home') }}" class="navbar8-link11 thq-body-small thq-link">
@@ -459,23 +462,23 @@
   <script defer="" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
   <!-- Add script to handle mobile menu visibility -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       // Get burger menu and mobile menu elements
       const burgerMenu = document.querySelector('[data-thq="thq-burger-menu"]');
       const mobileMenu = document.querySelector('[data-thq="thq-mobile-menu"]');
       const closeMenu = document.querySelector('[data-thq="thq-close-menu"]');
-      
+
       // Toggle mobile menu when burger is clicked
       if (burgerMenu && mobileMenu) {
-        burgerMenu.addEventListener('click', function() {
+        burgerMenu.addEventListener('click', function () {
           mobileMenu.style.display = 'flex';
           mobileMenu.classList.add('show');
         });
       }
-      
+
       // Close mobile menu when close button is clicked
       if (closeMenu && mobileMenu) {
-        closeMenu.addEventListener('click', function() {
+        closeMenu.addEventListener('click', function () {
           mobileMenu.style.display = 'none';
           mobileMenu.classList.remove('show');
         });

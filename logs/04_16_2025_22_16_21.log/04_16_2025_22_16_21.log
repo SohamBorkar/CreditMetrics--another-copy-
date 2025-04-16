@@ -1,0 +1,20 @@
+[ 2025-04-16 22:16:21,341 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 22:16:21,342 ] 97 werkzeug - INFO -  * Debugger PIN: 111-067-790
+[ 2025-04-16 22:16:22,891 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:22] "GET /makepredictions HTTP/1.1" 200 -
+[ 2025-04-16 22:16:22,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:22,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:22] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:22,961 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:22] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-16 22:16:23,017 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:23] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:23,019 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:23] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:29,487 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 22:16:29,511 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:29,516 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:29,524 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[33mGET /index.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 22:16:29,530 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 22:16:29,532 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:29,535 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[36mGET /static/components/features24.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:29,600 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 22:16:29,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-04-16 22:16:29,731 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-16 22:16:29,822 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 22:16:29,849 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:16:29] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -

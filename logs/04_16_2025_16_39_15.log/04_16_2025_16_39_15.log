@@ -2,3 +2,5 @@
  * Running on http://127.0.0.1:5000
 [ 2025-04-16 16:39:15,552 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
 [ 2025-04-16 16:39:15,552 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-04-16 17:34:50,764 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-04-16 17:35:28,866 ] 97 werkzeug - INFO -  * Restarting with stat

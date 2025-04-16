@@ -1,0 +1,18 @@
+[ 2025-04-16 23:32:24,865 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 23:32:24,865 ] 97 werkzeug - INFO -  * Debugger PIN: 111-067-790
+[ 2025-04-16 23:33:05,537 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:33:05] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[ 2025-04-16 23:33:05,556 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:33:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:33:05,557 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:33:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:33:05,615 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:33:05] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=IBUskxSElpaRQ3cBsaER HTTP/1.1" 200 -
+[ 2025-04-16 23:33:05,736 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:33:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:10,362 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:10] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[ 2025-04-16 23:34:10,393 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:10,394 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:10,450 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=IBUskxSElpaRQ3cBsaER HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:10,569 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:36,905 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:36] "GET /dashboard HTTP/1.1" 200 -
+[ 2025-04-16 23:34:36,931 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:36] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:34:36,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:36] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:36,934 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:36] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:36,937 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:34:36,939 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:34:36] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -

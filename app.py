@@ -167,6 +167,44 @@ def logout():
 def makepredictions():
     return render_template('makepredictions.html')
 
+# Route for analyze product page
+@app.route('/analyzeproduct')
+def analyzeproduct():
+    # Check if user is logged in
+    if "email" not in session:
+        flash('Please login to access the product tutorials', 'error')
+        return redirect(url_for('login'))
+    
+    return render_template('analyzeproduct.html')
+
+# Route to see past records page
+@app.route('/records')
+def records():
+    # Check if user is logged in
+    if "email" not in session:
+        flash('Please login to access your records', 'error')
+        return redirect(url_for('login'))
+    
+    return render_template('records.html')
+
+
+
+# Route for tutorial pages
+@app.route('/tutorial/<int:page>')
+def tutorial(page):
+    # Check if user is logged in
+    if "email" not in session:
+        flash('Please login to access the tutorials', 'error')
+        return redirect(url_for('login'))
+    
+    # Validate page number
+    if page < 1 or page > 3:
+        flash('Tutorial page not found', 'error')
+        return redirect(url_for('analyzeproduct'))
+    
+    # Render the appropriate tutorial page based on the page parameter
+    return render_template(f'tutorial{page}.html')
+
 # Route for results page
 @app.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
@@ -206,6 +244,28 @@ def page_not_found(e):
 @app.route('/components/<component_name>')
 def serve_component(component_name):
     return render_template(f'components/{component_name}')
+
+# # Route for contact page for logged-in users
+# @app.route('/contact_loggedin', methods=['GET', 'POST'])
+# def contact_loggedin():
+#     # Check if user is logged in
+#     if "email" not in session:
+#         flash('Please login to access the contact page', 'error')
+#         return redirect(url_for('login'))
+    
+#     if request.method == 'POST':
+#         name = request.form.get('name')
+#         email = request.form.get('email')
+#         message = request.form.get('message')
+        
+#         # Here you can add logic to handle the contact form submission,
+#         # such as sending an email or saving the message to a database.
+        
+#         flash('Your message has been sent successfully!', 'success')
+#         return redirect(url_for('contact_loggedin'))
+    
+#     return render_template('contact_loggedin.html')
+
 
 if __name__ == '__main__':
     with app.app_context():

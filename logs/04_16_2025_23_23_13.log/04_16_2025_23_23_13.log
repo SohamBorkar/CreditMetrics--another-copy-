@@ -1,0 +1,33 @@
+[ 2025-04-16 23:23:13,655 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 23:23:13,655 ] 97 werkzeug - INFO -  * Debugger PIN: 111-067-790
+[ 2025-04-16 23:23:15,423 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:23:15] "GET /dashboard HTTP/1.1" 200 -
+[ 2025-04-16 23:23:15,455 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:23:15] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:23:15,458 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:23:15] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:23:15,461 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:23:15] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:23:15,463 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:23:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:23:15,468 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:23:15] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:00,491 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:00] "GET /dashboard HTTP/1.1" 200 -
+[ 2025-04-16 23:28:00,509 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:00] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:28:00,512 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:00] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:00,513 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:00] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:00,517 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:00,518 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:00] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:04,287 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "GET /contact_loggedin HTTP/1.1" 200 -
+[ 2025-04-16 23:28:04,309 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[33mGET /static/components/contact21.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:28:04,310 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[33mGET /static/components/footer4.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:28:04,313 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[33mGET /static/components/contact10.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:28:04,314 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:04,317 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:04,319 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:04,357 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-04-16 23:28:04,361 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-16 23:28:04,475 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:04,480 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:04] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:15,503 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "[32mGET /login HTTP/1.1[0m" 302 -
+[ 2025-04-16 23:28:15,513 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "GET /dashboard HTTP/1.1" 200 -
+[ 2025-04-16 23:28:15,557 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 23:28:15,562 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:15,563 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:15,563 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:28:15,564 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 23:28:15] "[36mGET /static/components/navbar8.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 23:32:23,708 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/app.py', reloading

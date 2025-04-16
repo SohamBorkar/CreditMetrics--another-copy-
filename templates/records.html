@@ -4,12 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loan Default Prediction</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
-    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
-    <!-- Fix for navbar overlays blocking form elements -->
+    <title>Records - CreditMetrics</title>
+
+    <!-- Global CSS -->
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
 
     <!-- Component-specific CSS -->
@@ -201,107 +198,55 @@
 </head>
 
 <body>
-    <link href="{{ url_for('static', filename='components/navbar8.css') }}" rel="stylesheet" />
     <!-- Include Navbar for logged-in users -->
     {% include 'components/navbar_loggedin.html' %}
 
-    <div class="container my-5">
-        <h1 class="text-center mb-4">Loan Default Prediction System</h1>
-        <form action="/predictdata" method="post" class="needs-validation" novalidate>
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <label for="Age" class="form-label">Age:</label>
-                    <input type="number" class="form-control input-small" id="Age" name="Age" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="Income" class="form-label">Income:</label>
-                    <input type="number" class="form-control input-small" id="Income" name="Income" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="Home" class="form-label">Home Ownership:</label>
-                    <select class="form-control input-small" id="Home" name="Home" required>
-                        <option value="">Select</option>
-                        <option value="OWN">Own</option>
-                        <option value="RENT">Rent</option>
-                        <option value="MORTGAGE">Mortgage</option>
-                    </select>
-                </div>
-                <div class="col-md-6">
-                    <label for="Emp_length" class="form-label">Employment Length (years):</label>
-                    <input type="number" class="form-control input-small" id="Emp_length" name="Emp_length" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="Intent" class="form-label">Loan Intent:</label>
-                    <select class="form-control input-small" id="Intent" name="Intent" required>
-                        <option value="">Select</option>
-                        <option value="PERSONAL">Personal</option>
-                        <option value="EDUCATION">Education</option>
-                        <option value="MEDICAL">Medical</option>
-                        <option value="VENTURE">Venture</option>
-                    </select>
-                </div>
-                <div class="col-md-6">
-                    <label for="Amount" class="form-label">Loan Amount:</label>
-                    <input type="number" class="form-control input-small" id="Amount" name="Amount" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="Rate" class="form-label">Interest Rate (%):</label>
-                    <input type="number" class="form-control input-small" id="Rate" name="Rate" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="Status" class="form-label">Employment Status:</label>
-                    <select class="form-control input-small" id="Status" name="Status" required>
-                        <option value="">Select</option>
-                        <option value="Employed">Employed</option>
-                        <option value="Self-employed">Self-employed</option>
-                        <option value="Unemployed">Unemployed</option>
-                    </select>
-                </div>
-                <div class="col-md-6">
-                    <label for="Percent_income" class="form-label">Percentage of Income:</label>
-                    <input type="number" class="form-control input-small" id="Percent_income" name="Percent_income"
-                        step="0.01" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="Cred_length" class="form-label">Credit Length (years):</label>
-                    <input type="number" class="form-control input-small" id="Cred_length" name="Cred_length" required>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="submit" class="btn" style="background-color: #0060B9; color: white;">Predict
-                        Default</button>
-                </div>
-            </div>
-        </form>
+    <div class="main-content">
+        <div class="dashboard-container">
+            <h2 class="welcome-heading">Records</h2>
+            
+            <!-- Table View -->
+            <table class="records-table">
+                <thead>
+                    <tr>
+                        <th>Age</th>
+                        <th>Income</th>
+                        <th>Home Ownership</th>
+                        <th>Employment Length (years)</th>
+                        <th>Loan Intent</th>
+                        <th>Loan Amount</th>
+                        <th>Interest Rate (%)</th>
+                        <th>Employment Status</th>
+                        <th>Percentage of Income</th>
+                        <th>Credit Length (years)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example row, replace with dynamic data -->
+                    <tr>
+                        <td>30</td>
+                        <td>$60,000</td>
+                        <td>Own</td>
+                        <td>5</td>
+                        <td>Purchase</td>
+                        <td>$200,000</td>
+                        <td>3.5</td>
+                        <td>Employed</td>
+                        <td>30%</td>
+                        <td>10</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+            <!-- End of Table View -->
+        </div>
     </div>
-
-    <div id="footer-placeholder"></div>
-
-
-    <!-- Bootstrap Bundle with Popper for Bootstrap JavaScript components -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-        (function () {
-            'use strict'
-            var forms = document.querySelectorAll('.needs-validation')
-
-            Array.prototype.slice.call(forms)
-                .forEach(function (form) {
-                    form.addEventListener('submit', function (event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
-
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-        })();
-    </script>
 
     <!-- Include Footer for logged-in users -->
     {% include 'components/footer_loggedin.html' %}
-
+    
+    <!-- Scripts -->
+    <script defer src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
 </body>
 
 </html>
