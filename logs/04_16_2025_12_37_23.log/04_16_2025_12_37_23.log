@@ -1,0 +1,9 @@
+[ 2025-04-16 12:37:23,862 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 12:37:23,863 ] 97 werkzeug - INFO -  * Debugger PIN: 259-838-962
+[ 2025-04-16 12:37:47,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:37:47] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:37:47,341 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:37:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:37:47,343 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:37:47] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:37:53,804 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:37:53] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:37:53,821 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:37:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:37:53,823 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:37:53] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:38:00,742 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/app.py', reloading

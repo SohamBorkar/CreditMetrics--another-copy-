@@ -1,0 +1,15 @@
+{% extends "components/layout.html" %}
+
+{% block title %}Dashboard - CreditMetrics{% endblock %}
+
+{% block content %}
+<div class="container dashboard-container">
+    <h2 class="welcome-heading">Welcome, {{ session.bank_name }}</h2>
+    <p class="dashboard-intro">Your risk analysis dashboard is ready to use.</p>
+    
+    <div class="dashboard-actions">
+        <a href="{{ url_for('makepredictions') }}" class="btn btn-primary">Make Predictions</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-logout">Logout</a>
+    </div>
+</div>
+{% endblock %}

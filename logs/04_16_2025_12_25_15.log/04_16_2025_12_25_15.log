@@ -1,0 +1,42 @@
+[ 2025-04-16 12:25:15,975 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 12:25:15,975 ] 97 werkzeug - INFO -  * Debugger PIN: 259-838-962
+[ 2025-04-16 12:25:20,027 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:20] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:25:20,052 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:20] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:20,053 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:32,473 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:32] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:25:32,500 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:32,503 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:32] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:44,911 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:44] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:25:44,944 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:44,945 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:44] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:50,453 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:50] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:25:50,490 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:50,492 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:50] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:59,156 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:59] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:25:59,179 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:25:59,181 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:25:59] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:26:10,938 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:10] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:26:10,956 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:26:10,956 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:10] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:26:26,790 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:26] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:26:26,830 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:26] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:26:26,831 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:26:41,784 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:41] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:26:41,812 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:41] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:26:41,813 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:26:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:27:03,263 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:03] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:27:03,300 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:27:03,301 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:03] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:27:18,721 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:18] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:27:18,755 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:27:18,756 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:18] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:27:46,095 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:46] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:27:46,136 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:27:46,136 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:27:46] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:28:02,450 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:28:02] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:28:02,479 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:28:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:28:02,482 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:28:02] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:28:47,763 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:28:47] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:28:47,786 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:28:47] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:28:47,787 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:28:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:31:14,554 ] 97 werkzeug - INFO -  * Detected change in '/home/soham/Programs/CreditMetrics (another copy)/app.py', reloading

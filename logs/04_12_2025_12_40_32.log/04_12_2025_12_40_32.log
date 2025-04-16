@@ -53,3 +53,17 @@
 [ 2025-04-12 12:42:09,869 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:09] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
 [ 2025-04-12 12:42:17,802 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
 [ 2025-04-12 12:42:17,808 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 12:42:17] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:02,867 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:02] "GET /login HTTP/1.1" 200 -
+[ 2025-04-12 14:46:02,918 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:02,921 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:02] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:44,601 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:44] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:44,616 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:44] "[36mGET /static/components/footer41.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:46,330 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:46] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-12 14:46:46,368 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:46] "[36mGET /static/css/signup.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:46,369 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:51,883 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:51] "[33mGET /login.html HTTP/1.1[0m" 404 -
+[ 2025-04-12 14:46:51,932 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:46:51,942 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:46:51] "GET /static/css/404.css HTTP/1.1" 200 -
+[ 2025-04-12 14:47:06,650 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:47:06] "[33mGET /login.html HTTP/1.1[0m" 404 -
+[ 2025-04-12 14:47:06,705 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:47:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-12 14:47:06,707 ] 97 werkzeug - INFO - 127.0.0.1 - - [12/Apr/2025 14:47:06] "[36mGET /static/css/404.css HTTP/1.1[0m" 304 -

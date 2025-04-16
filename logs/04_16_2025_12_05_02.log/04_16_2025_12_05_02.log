@@ -1,0 +1,18 @@
+[ 2025-04-16 12:05:02,718 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-16 12:05:02,782 ] 97 werkzeug - INFO -  * Debugger PIN: 259-838-962
+[ 2025-04-16 12:05:45,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET / HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /static/components/navbar8.css HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,162 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /static/css/index.css HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,163 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /static/components/features24.css HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,165 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "[33mGET /index.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 12:05:45,165 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /static/css/style.css HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,168 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 12:05:45,178 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+[ 2025-04-16 12:05:45,188 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /components/navbar8.html HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,194 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /components/footer41.html HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /static/components/footer41.css HTTP/1.1" 200 -
+[ 2025-04-16 12:05:45,226 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:45] "GET /static/images/logo.png HTTP/1.1" 200 -
+[ 2025-04-16 12:05:48,265 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:48] "GET /signup HTTP/1.1" 200 -
+[ 2025-04-16 12:05:48,304 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2025-04-16 12:05:48,310 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:48] "GET /static/css/signup.css HTTP/1.1" 200 -
+[ 2025-04-16 12:05:48,393 ] 97 werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 12:05:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
