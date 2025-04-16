@@ -16,7 +16,7 @@
 <body>
     <link href="{{ url_for('static', filename='components/navbar8.css') }}" rel="stylesheet" />
 
-    <div id="navbar-placeholder"></div>
+    <!-- <div id="navbar-placeholder"></div>
 
     <script>
         fetch("{{ url_for('serve_component', component_name='navbar8.html') }}")
@@ -27,7 +27,8 @@
                 document.getElementById("navbar-placeholder").innerHTML = data;
             })
             .catch(error => console.error("Error loading navbar:", error));            
-    </script>
+    </script> -->
+    
     <div class="container my-5">
         <h1 class="text-center mb-4">Loan Default Prediction System</h1>
         <form action="/predictdata" method="post" class="needs-validation" novalidate>
